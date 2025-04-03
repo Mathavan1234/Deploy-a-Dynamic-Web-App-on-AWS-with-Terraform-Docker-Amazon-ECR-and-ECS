@@ -51,4 +51,10 @@ variable "private_data_subnet_AZ2-CIDR" {
   type        = string
 }
 
+#Security Group Variables
+variable "ssh_location" {
+  description = "IP address that can SSH into the bastion host/servers"
+  type        = string
+}
+
 

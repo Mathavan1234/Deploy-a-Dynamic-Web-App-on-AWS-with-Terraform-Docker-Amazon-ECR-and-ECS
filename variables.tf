@@ -77,3 +77,14 @@ variable "multi_AZ_deployment" {
   description = "Create a Standby DB Instance"
   type        = bool
 }
+
+# ACM Variables
+variable "domain_name" {
+  description = "Domain Name"
+  type        = string
+}
+
+variable "alternative_domain_name" {
+  description = "Sub Domain Name"
+  type        = string
+}

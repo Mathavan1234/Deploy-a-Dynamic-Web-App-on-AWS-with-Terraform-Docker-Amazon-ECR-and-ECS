@@ -88,3 +88,31 @@ variable "alternative_domain_name" {
   description = "Sub Domain Name"
   type        = string
 }
+
+# S3 Variables
+variable "env_file_bucket_name" {
+  description = "S3 Bucket Name"
+  type        = string
+}
+
+variable "env_file_name" {
+  description = "Env File Name"
+  type        = string
+}
+
+# ECS Variables
+variable "architecture" {
+  description = "ECS CPU Architecture"
+  type        = string
+}
+
+variable "container_image" {
+  description = "Container Image URI"
+  type        = string
+}
+
+# Route 53 Variables
+variable "record_name" {
+  description = "Sub Domain Name"
+  type        = string
+}
